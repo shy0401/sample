@@ -73,14 +73,14 @@ sections:
     design:
       view: article-grid
       columns: 1
-  - block: collection
+  _- block: collection
     id: news
     content:
       title: Recent News
       subtitle: ''
       text: ''
       # Page type to display. E.g. post, talk, publication...
-      page_type: post
+      page_type: post_
       # Choose how many pages you would like to display (0 = all pages)
       count: 5
       # Filter on criteria
